@@ -1,0 +1,150 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin: 0;
+}
+
+.section.header{
+    display: flex;
+    align-items: stretch;
+    background-color: #1F2937;
+    color: white;
+    flex-direction: column;
+    padding: 10px 30px;
+}
+
+
+.logo-nure{
+    display: flex;
+    width: 100px;
+}
+
+.links{
+    display: flex;
+    padding: 16px;
+    justify-content: space-between;
+    margin: 0px 40px;
+}
+
+a{
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 0px;
+    gap: 40px;
+    margin: 0px 40px;
+}
+
+.foto-kary{
+    display: flex;
+    height: 400px;
+    flex: 1;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    margin-top: 0px;
+}
+
+
+.header .text{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.section.two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    margin: 40px 80px;
+}
+
+.container-patient{
+    display: flex;
+    gap: 25px;
+}
+
+.patients{
+    flex: 1;
+}
+
+
+.section.three{
+    display: flex;
+    flex-direction: column;
+    background-color: gainsboro;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 80px;
+}
+
+.three .text{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+#quote{
+    align-self: flex-end;
+}
+
+
+.section.four{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square{
+    background-color: #3882F6;
+    display: flex;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 20px 40px;
+    margin: 30px 40px;
+    gap: 20px;
+}
+
+button{
+    border-radius: 10px;    
+    width: 100px;
+    height: 40px;
+    border: none;
+    background-color: #3882F6;
+    color: white;
+}
+
+.square .button{
+    border: 2px solid white;
+}
+
+.footer{
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+img{
+    max-width: 80%;
+    height: auto;
+    flex: 1;
+}
